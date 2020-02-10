@@ -6,7 +6,7 @@ const int bio_init_oxygen = 70;
 class Biologist : public Astronaut
 {
 public:
-    Biologist(const std::string& name): Astronaut(name, bio_init_oxygen) {};
+    explicit Biologist(const std::string& name): Astronaut(name, bio_init_oxygen) {};
 
     virtual void breathe() override
     {

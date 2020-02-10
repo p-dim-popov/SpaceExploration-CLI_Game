@@ -7,6 +7,6 @@ const int geo_init_oxygen = 65;
 class Geodesist : public Astronaut
 {
 public:
-    Geodesist(const std::string & name) : Astronaut(name, geo_init_oxygen) {}
+    explicit Geodesist(const std::string & name) : Astronaut(name, geo_init_oxygen) {}
 };
 #endif // GEODESIST_H

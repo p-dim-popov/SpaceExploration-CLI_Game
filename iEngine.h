@@ -1,6 +1,5 @@
 #ifndef IENGINE_H
 #define IENGINE_H
-#include<ostream>
 class IEngine
 {
 public:

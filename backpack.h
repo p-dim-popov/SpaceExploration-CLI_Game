@@ -7,7 +7,7 @@ class Backpack
 {
     std::vector<std::string> items;
 public:
-    Backpack() {}
+    Backpack() = default;
     std::vector<std::string>& getItems()
     {
         return this->items;

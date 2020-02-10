@@ -44,38 +44,38 @@ public:
             try {
                 if(command == ("ДобавиАстронавт") || command == ("AddAstronaut"))
                 {
-                    *this->/*std::c*/out << c.addAstronaut(args[1], args[2]);
+                    *this->out << c.addAstronaut(args[1], args[2]);
                 }
                 else if(command == ("ДобавиПланета") || command == ("AddPlanet"))
                 {
                     std::vector<std::string> items;
                     if (args.size() == 3)
                     {
-                        std::stringstream split_stream(args[2]);
-                        std::string token;
-                        while (std::getline(split_stream, token, ',')) {
-                            items.push_back(token);
+                        std::stringstream split_stream_items(args[2]);
+                        std::string item_token;
+                        while (std::getline(split_stream_items, item_token, ',')) {
+                            items.push_back(item_token);
                         }
                     }
-                    *this->/*std::c*/out << c.addPlanet(args[1], items);
+                    *this->out << c.addPlanet(args[1], items);
                 }
                 else if(command == ("ПенсионирайАстронавт") || command == ("RetireAstronaut"))
                 {
-                    *this->/*std::c*/out << c.retireAstronaut(args[1]);
+                    *this->out << c.retireAstronaut(args[1]);
                 }
                 else if(command == ("ИзследвайПланета") || command == ("ExplorePlanet"))
                 {
-                    *this->/*std::c*/out << c.explorePlanet(args[1]);
+                    *this->out << c.explorePlanet(args[1]);
                 }
                 else if(command == ("Отчет") || command == ("Report"))
                 {
-                    *this->/*std::c*/out << c.report();
+                    *this->out << c.report();
                 }
                 else continue;
             }
             catch (std::exception& e)
             {
-                *this->/*std::c*/out << e.what();
+                *this->out << e.what();
             }
         }
     }
