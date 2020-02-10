@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pjs/CLionProjects/SpaceExploration-CLI_Game/main.cpp" "/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles/csharp_kursow_proekt_test01.dir/main.cpp.o"
+  "/home/pjs/CLionProjects/SpaceExploration-CLI_Game/main.cpp" "/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles/SpaceExploration-CLI_Game.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

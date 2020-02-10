@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/csharp_kursow_proekt_test01.dir/all
+all: CMakeFiles/SpaceExploration-CLI_Game.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/csharp_kursow_proekt_test01.dir/clean
+clean: CMakeFiles/SpaceExploration-CLI_Game.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/csharp_kursow_proekt_test01.dir
+# Target rules for target CMakeFiles/SpaceExploration-CLI_Game.dir
 
 # All Build rule for target.
-CMakeFiles/csharp_kursow_proekt_test01.dir/all:
-	$(MAKE) -f CMakeFiles/csharp_kursow_proekt_test01.dir/build.make CMakeFiles/csharp_kursow_proekt_test01.dir/depend
-	$(MAKE) -f CMakeFiles/csharp_kursow_proekt_test01.dir/build.make CMakeFiles/csharp_kursow_proekt_test01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target csharp_kursow_proekt_test01"
-.PHONY : CMakeFiles/csharp_kursow_proekt_test01.dir/all
+CMakeFiles/SpaceExploration-CLI_Game.dir/all:
+	$(MAKE) -f CMakeFiles/SpaceExploration-CLI_Game.dir/build.make CMakeFiles/SpaceExploration-CLI_Game.dir/depend
+	$(MAKE) -f CMakeFiles/SpaceExploration-CLI_Game.dir/build.make CMakeFiles/SpaceExploration-CLI_Game.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target SpaceExploration-CLI_Game"
+.PHONY : CMakeFiles/SpaceExploration-CLI_Game.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/csharp_kursow_proekt_test01.dir/rule: cmake_check_build_system
+CMakeFiles/SpaceExploration-CLI_Game.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/csharp_kursow_proekt_test01.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SpaceExploration-CLI_Game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/csharp_kursow_proekt_test01.dir/rule
+.PHONY : CMakeFiles/SpaceExploration-CLI_Game.dir/rule
 
 # Convenience name for target.
-csharp_kursow_proekt_test01: CMakeFiles/csharp_kursow_proekt_test01.dir/rule
+SpaceExploration-CLI_Game: CMakeFiles/SpaceExploration-CLI_Game.dir/rule
 
-.PHONY : csharp_kursow_proekt_test01
+.PHONY : SpaceExploration-CLI_Game
 
 # clean rule for target.
-CMakeFiles/csharp_kursow_proekt_test01.dir/clean:
-	$(MAKE) -f CMakeFiles/csharp_kursow_proekt_test01.dir/build.make CMakeFiles/csharp_kursow_proekt_test01.dir/clean
-.PHONY : CMakeFiles/csharp_kursow_proekt_test01.dir/clean
+CMakeFiles/SpaceExploration-CLI_Game.dir/clean:
+	$(MAKE) -f CMakeFiles/SpaceExploration-CLI_Game.dir/build.make CMakeFiles/SpaceExploration-CLI_Game.dir/clean
+.PHONY : CMakeFiles/SpaceExploration-CLI_Game.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

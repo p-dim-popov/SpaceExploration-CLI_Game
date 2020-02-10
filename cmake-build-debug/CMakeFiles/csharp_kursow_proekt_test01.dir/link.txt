@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/csharp_kursow_proekt_test01.dir/main.cpp.o  -o csharp_kursow_proekt_test01 

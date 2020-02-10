@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
-project(csharp_kursow_proekt_test01)
+project(SpaceExploration-CLI_Game)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(csharp_kursow_proekt_test01
+add_executable(SpaceExploration-CLI_Game
         astronaut.h
         astronautRepository.h
         backpack.h

@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="csharp_kursow_proekt_test01"/>
+		<Option title="SpaceExploration-CLI_Game"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="csharp_kursow_proekt_test01">
-				<Option output="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/csharp_kursow_proekt_test01" prefix_auto="0" extension_auto="0"/>
+			<Target title="SpaceExploration-CLI_Game">
+				<Option output="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/SpaceExploration-CLI_Game" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -44,14 +44,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 csharp_kursow_proekt_test01"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpaceExploration-CLI_Game"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="csharp_kursow_proekt_test01/fast">
-				<Option output="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/csharp_kursow_proekt_test01" prefix_auto="0" extension_auto="0"/>
+			<Target title="SpaceExploration-CLI_Game/fast">
+				<Option output="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/SpaceExploration-CLI_Game" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -67,7 +67,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 csharp_kursow_proekt_test01/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpaceExploration-CLI_Game/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,52 +85,52 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/astronaut.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/astronautRepository.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/backpack.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/biologist.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/controller.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/engine.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/geodesist.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/iController.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/iEngine.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/iMission.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/iRepository.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/main.cpp">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/meteorologist.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/mission.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/planet.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/planetRepository.h">
-			<Option target="csharp_kursow_proekt_test01"/>
+			<Option target="SpaceExploration-CLI_Game"/>
 		</Unit>
 		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

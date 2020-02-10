@@ -1,3 +1,3 @@
 /home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles/csharp_kursow_proekt_test01.dir
+/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles/SpaceExploration-CLI_Game.dir
 /home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/CMakeFiles/edit_cache.dir

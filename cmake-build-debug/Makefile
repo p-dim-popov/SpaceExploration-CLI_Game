@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named csharp_kursow_proekt_test01
+# Target rules for targets named SpaceExploration-CLI_Game
 
 # Build rule for target.
-csharp_kursow_proekt_test01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 csharp_kursow_proekt_test01
-.PHONY : csharp_kursow_proekt_test01
+SpaceExploration-CLI_Game: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SpaceExploration-CLI_Game
+.PHONY : SpaceExploration-CLI_Game
 
 # fast build rule for target.
-csharp_kursow_proekt_test01/fast:
-	$(MAKE) -f CMakeFiles/csharp_kursow_proekt_test01.dir/build.make CMakeFiles/csharp_kursow_proekt_test01.dir/build
-.PHONY : csharp_kursow_proekt_test01/fast
+SpaceExploration-CLI_Game/fast:
+	$(MAKE) -f CMakeFiles/SpaceExploration-CLI_Game.dir/build.make CMakeFiles/SpaceExploration-CLI_Game.dir/build
+.PHONY : SpaceExploration-CLI_Game/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/csharp_kursow_proekt_test01.dir/build.make CMakeFiles/csharp_kursow_proekt_test01.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/SpaceExploration-CLI_Game.dir/build.make CMakeFiles/SpaceExploration-CLI_Game.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/csharp_kursow_proekt_test01.dir/build.make CMakeFiles/csharp_kursow_proekt_test01.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/SpaceExploration-CLI_Game.dir/build.make CMakeFiles/SpaceExploration-CLI_Game.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/csharp_kursow_proekt_test01.dir/build.make CMakeFiles/csharp_kursow_proekt_test01.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/SpaceExploration-CLI_Game.dir/build.make CMakeFiles/SpaceExploration-CLI_Game.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... csharp_kursow_proekt_test01"
+	@echo "... SpaceExploration-CLI_Game"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

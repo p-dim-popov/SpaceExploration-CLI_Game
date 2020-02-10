@@ -4,7 +4,9 @@ using namespace std;
 
 int main()
 {
-    ::setlocale( LC_ALL , "russian_russia.866" );
+    #ifdef _WIN32
+    system("chcp 65001");
+    #endif
     srand(time(NULL));
     AstronautRepository astronauts;
     PlanetRepository planets;
