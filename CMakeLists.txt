@@ -21,4 +21,4 @@ add_executable(SpaceExploration-CLI_Game
         meteorologist.h
         mission.h
         planet.h
-        planetRepository.h)
+        planetRepository.h JSTestEngine.h)
