@@ -1,5 +1,6 @@
 #include "JSTestEngine.hpp"
-
+#include <emscripten/bind.h>
+using namespace emscripten;
 JSTestEngine::JSTestEngine(IRepository<Astronaut> &astronauts, IRepository<Planet> &planets, IMission &mission) {
     this->astronauts = &astronauts;
     this->planets = &planets;
@@ -50,3 +51,10 @@ std::string JSTestEngine::action(const std::string &input) {
 }
 
 JSTestEngine::~JSTestEngine() = default;
+
+EMSCRIPTEN_BINDINGS(js_test_engine_class){
+    class_<JSTestEngine>("JSTestEngine")
+            .constructor<IRepository<Astronaut>&, IRepository<Planet>&, IMission&>()
+            .function("action", &JSTestEngine::action)
+            ;
+}

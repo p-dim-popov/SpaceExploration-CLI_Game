@@ -1,6 +1,7 @@
 #include "JSTestEngine.hpp"
-#include"engine.hpp"
+//#include"engine.hpp"
 #include <iostream>
+
 using namespace std;
 
 int main()
@@ -12,7 +13,8 @@ int main()
     AstronautRepository astronauts;
     PlanetRepository planets;
     Mission mission;
-    //Engine eng(cin, cout, astronauts, planets, mission);
+//    Engine eng(cin, cout, astronauts, planets, mission);
+//    eng.run();
     JSTestEngine eng(astronauts, planets, mission);
     while (true){
         string input;

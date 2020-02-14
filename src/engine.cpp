@@ -1,5 +1,6 @@
 #include "engine.hpp"
-
+#include <emscripten/bind.h>
+using namespace emscripten;
 Engine::Engine(std::istream &in, std::ostream &out, IRepository<Astronaut> &astronauts, IRepository<Planet> &planets,
                IMission &mission) {
     this->in = &in;
