@@ -10,5 +10,7 @@ public:
     virtual std::string retireAstronaut(const std::string &astronautName) = 0;
     virtual std::string explorePlanet(const std::string &planetName) = 0;
     virtual std::string report() = 0;
+
+    virtual ~IController() = default;
 };
 #endif // ICONTROLLER_H

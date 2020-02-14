@@ -4,5 +4,7 @@ class IEngine
 {
 public:
     virtual void run() = 0;
+
+    virtual ~IEngine() = default;
 };
 #endif // IENGINE_H
