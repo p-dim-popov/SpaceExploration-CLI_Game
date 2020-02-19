@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>SE_CLI_Game</title>
+    <link rel="stylesheet" href="template.css">
     <script src="a.js"></script>
 </head>
 <body>
-<input type="text" id="inputBox">
-<button id="button">Enter</button>
+<audio muted="muted" controls autoplay loop id="music">
+    <source src="background_music.wav" type="audio/wav">
+</audio>
+<div id="container">
+    <div id="exercise">
+        <div id="result">
+            <textarea disabled id="output"></textarea>
+        </div>
+        <form>
+            <div>
+                <label for="string"></label>
+                <input type="text" id="string">
+            </div>
+            <input type="button" value="Enter/Въведи">
+        </form>
+    </div>
+</div>
 </body>
+
 <script src="main.js"></script>
 </html>
