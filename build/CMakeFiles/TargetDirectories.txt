@@ -1,0 +1,4 @@
+/home/pjs/CLionProjects/SpaceExploration-CLI_Game/build/CMakeFiles/rebuild_cache.dir
+/home/pjs/CLionProjects/SpaceExploration-CLI_Game/build/CMakeFiles/edit_cache.dir
+/home/pjs/CLionProjects/SpaceExploration-CLI_Game/build/CMakeFiles/a.dir
+/home/pjs/CLionProjects/SpaceExploration-CLI_Game/build/CMakeFiles/SpaceExploration-CLI_Game.dir

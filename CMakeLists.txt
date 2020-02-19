@@ -1,9 +1,14 @@
 project(SpaceExploration-CLI_Game)
 cmake_minimum_required(VERSION 3.16)
-option(JS_ONLY "Compiles to native JS (No WASM)" OFF)
+option(JS_ONLY "Compiles to native JS (No WASM)" ON)
+
+if (EMSCRIPTEN)
+    set(CMAKE_CXX_COMPILER "em++")
+    set(CMAKE_CXX_FLAGS "-O1 --bind -s ALLOW_MEMORY_GROWTH=1")
+endif()
 
 
-add_definitions(-std=c++11 -O3)
+add_definitions(-std=c++14 -O1)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(
@@ -36,7 +41,7 @@ add_executable(SpaceExploration-CLI_Game
 if(JS_ONLY)
     message(STATUS "Setting compilation target to native JavaScript")
     set(CMAKE_EXECUTABLE_SUFFIX ".js")
-    set_target_properties(a PROPERTIES LINK_FLAGS "-s EXPORTED_FUNCTIONS='[_main]'")
+    set_target_properties(a PROPERTIES LINK_FLAGS "-s WASM=0 -s EXPORTED_FUNCTIONS='[_main]'")
 else(JS_ONLY)
     message(STATUS "Setting compilation target to WASM")
     set(CMAKE_EXECUTABLE_SUFFIX ".wasm.js")
