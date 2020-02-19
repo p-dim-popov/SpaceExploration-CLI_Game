@@ -14,6 +14,7 @@ class JSTestEngine : public IEngine {
     IMission *mission;
     IController *c;
 public:
+    JSTestEngine(AstronautRepository &astronauts, PlanetRepository &planets, Mission &mission);
     JSTestEngine(IRepository<Astronaut> &astronauts, IRepository<Planet> &planets, IMission &mission);
 
     void run() override;

@@ -1,6 +1,12 @@
 #include "JSTestEngine.hpp"
 #include <emscripten/bind.h>
 using namespace emscripten;
+JSTestEngine::JSTestEngine(AstronautRepository &astronauts, PlanetRepository &planets, Mission &mission) {
+    this->astronauts = &astronauts;
+    this->planets = &planets;
+    this->mission = &mission;
+    this->c = new Controller(*this->astronauts, *this->planets, *this->mission);
+}
 JSTestEngine::JSTestEngine(IRepository<Astronaut> &astronauts, IRepository<Planet> &planets, IMission &mission) {
     this->astronauts = &astronauts;
     this->planets = &planets;
@@ -54,7 +60,7 @@ JSTestEngine::~JSTestEngine() = default;
 
 EMSCRIPTEN_BINDINGS(js_test_engine_class){
     class_<JSTestEngine>("JSTestEngine")
-            .constructor<IRepository<Astronaut>&, IRepository<Planet>&, IMission&>()
+            .constructor<AstronautRepository&, PlanetRepository&, Mission&>()
             .function("action", &JSTestEngine::action)
             ;
 }

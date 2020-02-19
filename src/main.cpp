@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    #ifdef _WIN32
+/*    #ifdef _WIN32
     system("chcp 65001");
     #endif
     srand(time(NULL));
@@ -22,6 +22,6 @@ int main()
         string output = eng.action(input);
         if (output == "Край" || output == "End") break;
         cout << output;
-    }
+    }*/
     return 0;
 }
