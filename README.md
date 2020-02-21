@@ -19,7 +19,7 @@ LEGEND: [value] - describes an optional argument, \<value\> - describes a mandat
 
 // Any incorrectly entered command is ignored and the program expects a new data input
 
-The program works in Microsoft Windows environment as well, but the commands are typed in English.
+Commands can also be entered in English.
 
     AddAstronaut <name>  //adds astronaut to astronautRepository 
 
