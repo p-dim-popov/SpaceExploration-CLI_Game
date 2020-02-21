@@ -3,7 +3,7 @@ const button = document.querySelector('input[type="button"]');
 const outputBox = document.getElementById('output');
 
 const audio = document.getElementById('music');
-// audio.play();
+audio.play();
 
 input.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {

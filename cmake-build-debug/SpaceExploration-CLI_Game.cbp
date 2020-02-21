@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SpaceExploration-CLI_Game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a">
+				<Option output="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/public/a.js" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/public"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include"/>
+					<Add directory="/home/pjs/emsdk/upstream/emscripten/system/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 a"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a/fast">
+				<Option output="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/public/a.js" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/public"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include"/>
+					<Add directory="/home/pjs/emsdk/upstream/emscripten/system/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 a/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SpaceExploration-CLI_Game">
+				<Option output="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/public/SpaceExploration-CLI_Game.js" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/public"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include"/>
+					<Add directory="/home/pjs/emsdk/upstream/emscripten/system/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpaceExploration-CLI_Game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SpaceExploration-CLI_Game/fast">
+				<Option output="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/public/SpaceExploration-CLI_Game.js" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/public"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include"/>
+					<Add directory="/home/pjs/emsdk/upstream/emscripten/system/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpaceExploration-CLI_Game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pjs/CLionProjects/SpaceExploration-CLI_Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/JSTestEngine.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/astronaut.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/astronautRepository.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/backpack.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/biologist.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/controller.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/engine.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/geodesist.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/iController.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/iEngine.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/iMission.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/iRepository.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/meteorologist.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/mission.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/planet.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/include/planetRepository.hpp">
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/JSTestEngine.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/astronaut.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/astronautRepository.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/backpack.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/biologist.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/controller.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/engine.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/geodesist.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/main.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/meteorologist.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/mission.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/planet.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/planetRepository.cpp">
+			<Option target="a"/>
+			<Option target="SpaceExploration-CLI_Game"/>
+		</Unit>
+		<Unit filename="/home/pjs/CLionProjects/SpaceExploration-CLI_Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

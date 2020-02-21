@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>SE_CLI_Game</title>
     <link rel="stylesheet" href="template.css">
-    <script src="a.js"></script>
 </head>
 <body>
 <audio muted="muted" controls autoplay loop id="music">
@@ -24,7 +23,27 @@
         </form>
     </div>
 </div>
-</body>
-
+<div class="manual">
+    <h2>Manual/Указание</h2>
+    <p>
+        Description: The game consists of several commands that control the order of actions. Works on the principle of a command interpreter. The commands are:
+    <br>
+        <br>LEGEND: [value] - describes an optional argument, &lt;value> - describes a mandatory argument:
+<br>
+        <br>ДобавиАстронавт &lt;име на астронавт> //adds astronaut to astronautRepository
+<br>
+       <br> ДобавиПланета &lt;име на планета> [предмет_1,предмет_2, … предмет_X] //adds planet to PlanetRepository /*input of items is delimited by “,” WITHOUT space*/
+<br>
+    <br>        ПенсионирайАстронавт &lt;име на астронавт> //removes astronaut from repo
+<br>
+        <br>        ИзследвайПланета &lt;име на планета> //begins exploration of given planet
+<br>
+    <br>                Отчет //shows current state of astronauts (Name, Oxygen, Items)
+<br>
+    <br>                Край //ends the program
+    </p>
+</div>
+<script src="a.js"></script>
 <script src="main.js"></script>
+</body>
 </html>

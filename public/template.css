@@ -6,8 +6,8 @@ html {
 }
 
 body {
-    background: url(space_background.jpg) no-repeat center center;
     background-size: cover;
+    background: url(space_background.jpg) no-repeat fixed center center;
     margin: 0;
     height: 100vh;
 }
@@ -78,4 +78,17 @@ textarea {
 
 textarea::-webkit-scrollbar {
     display: none;
+}
+
+div.manual{
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, .7);
+    border: 0px solid white;
+    margin: 5% auto;
+    text-align: center;
+    border-radius: 4px;
+    padding: 35px 0;
 }
