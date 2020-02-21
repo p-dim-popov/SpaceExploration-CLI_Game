@@ -22,5 +22,6 @@
 *.tar
 *.zip
 
-cmake-build*/
+build*/
 .idea/
+Make*
