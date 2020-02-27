@@ -28,9 +28,10 @@ void Mission::explore(Planet &planet, std::vector<Astronaut *> &astronauts, bool
         }
     }
 }
-#ifdef __EMSCRIPTEN__
+
 Mission::~Mission() = default;
 
+#ifdef __EMSCRIPTEN__
 EMSCRIPTEN_BINDINGS(mission_class){
     class_<Mission>("Mission")
             .constructor<>()

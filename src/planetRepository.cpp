@@ -18,6 +18,7 @@ bool PlanetRepository::remove(const Planet &planet) {
 }
 
 PlanetRepository::~PlanetRepository() = default;
+
 #ifdef __EMSCRIPTEN__
 EMSCRIPTEN_BINDINGS(planet_repo_class){
     class_<PlanetRepository>("PlanetRepository")

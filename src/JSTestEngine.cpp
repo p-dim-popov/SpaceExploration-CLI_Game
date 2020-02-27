@@ -57,9 +57,9 @@ std::string JSTestEngine::action(const std::string &input) {
         return e.what();
     }
 }
-#ifdef __EMSCRIPTEN__
 JSTestEngine::~JSTestEngine() = default;
 
+#ifdef __EMSCRIPTEN__
 EMSCRIPTEN_BINDINGS(js_test_engine_class){
     class_<JSTestEngine>("JSTestEngine")
             .constructor<AstronautRepository&, PlanetRepository&, Mission&>()
