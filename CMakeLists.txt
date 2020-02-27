@@ -5,15 +5,16 @@ option(JS_ONLY "Compiles to native JS (No WASM)" ON)
 if (EMSCRIPTEN)
     set(CMAKE_CXX_COMPILER "em++")
     set(CMAKE_CXX_FLAGS "-O1 --bind -s ALLOW_MEMORY_GROWTH=1")
+    add_definitions(-std=c++14 -O1)
+else ()
+    set(CMAKE_CXX_COMPILER "g++")
+    set(CMAKE_CXX_FLAGS "-std=c++14")
 endif ()
 
-
-add_definitions(-std=c++14 -O1)
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(
-        include
-        /home/pjs/emsdk/upstream/emscripten/system/include)
+include_directories(include)
+include_directories(/home/pjs/emsdk/upstream/emscripten/system/include)
 
 file(GLOB SOURCES src/*.cpp)
 
@@ -38,12 +39,15 @@ add_executable(a ${SOURCES})
 #        include/planet.hpp
 #        include/planetRepository.hpp include/JSTestEngine.hpp src/astronaut.cpp src/astronautRepository.cpp src/backpack.cpp src/biologist.cpp src/controller.cpp src/engine.cpp src/geodesist.cpp src/JSTestEngine.cpp src/meteorologist.cpp src/mission.cpp src/planet.cpp src/planetRepository.cpp)
 #
-if (JS_ONLY)
-    message(STATUS "Setting compilation target to native JavaScript")
-    set(CMAKE_EXECUTABLE_SUFFIX ".js")
-    set_target_properties(a PROPERTIES LINK_FLAGS "-s WASM=0 -s EXPORTED_FUNCTIONS='[_main]' -s NO_EXIT_RUNTIME")
-#    else(JS_ONLY)
-#        message(STATUS "Setting compilation target to WASM")
-#        set(CMAKE_EXECUTABLE_SUFFIX ".wasm.js")
-#        set_target_properties(a PROPERTIES LINK_FLAGS "-s WASM=1 -s BINARYEN_METHOD='native-wasm' -s EXPORTED_FUNCTIONS='[_main]' -s NO_EXIT_RUNTIME")
-endif (JS_ONLY)
+if (EMSCRIPTEN)
+    if (JS_ONLY)
+        message(STATUS "Setting compilation target to native JavaScript")
+        set(CMAKE_EXECUTABLE_SUFFIX ".js")
+        set_target_properties(a PROPERTIES LINK_FLAGS "-s WASM=0 -s EXPORTED_FUNCTIONS='[_main]' -s NO_EXIT_RUNTIME")
+    else (JS_ONLY)
+        message(STATUS "Setting compilation target to WASM")
+        set(CMAKE_EXECUTABLE_SUFFIX ".wasm.js")
+        set_target_properties(a PROPERTIES LINK_FLAGS "-s WASM=1 -s BINARYEN_METHOD='native-wasm' -s EXPORTED_FUNCTIONS='[_main]' -s NO_EXIT_RUNTIME")
+    endif (JS_ONLY)
+
+endif ()
