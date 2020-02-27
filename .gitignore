@@ -22,6 +22,6 @@
 *.tar
 *.zip
 
-build*/
+*build*/
 .idea/
 Make*
