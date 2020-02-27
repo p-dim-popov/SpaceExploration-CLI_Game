@@ -1,6 +1,8 @@
 # SpaceExploration-CLI_Game
 Just a simple C++ CLI game to challenge my abilities in OOP and basic C++ knowledge.
 
+[Link to play online (beta)](https://p-dim-popov.github.io/SpaceExploration-CLI_Game/public/)  
+
 Description: Send astronauts to space! Add them to a spaceship, add planets to explore and items to each planet. Explore planets and collect items. Some astronauts can die, some can survive. Space is a dangerous place. When you decide you can retire an astronaut who risked his life for your joy.
 
 Commands: The game consists of several commands that control the order of actions. Works on the principle of a command interpreter. The commands are:
