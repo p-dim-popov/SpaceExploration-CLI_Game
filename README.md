@@ -5,7 +5,7 @@ Description: Send astronauts to space! Add them to a spaceship, add planets to e
 
 Commands: The game consists of several commands that control the order of actions. Works on the principle of a command interpreter. The commands are:
 
-LEGEND: [value] - describes an optional argument, \<value\> - describes a mandatory argument:
+LEGEND: [value] - describes an optional argument, <value\> - describes a mandatory argument:
 
     ДобавиАстронавт <име на астронавт> //adds astronaut to astronautRepository 
 
@@ -35,4 +35,6 @@ Commands can also be entered in English.
     Report //shows current state of astronauts (Name, Oxygen, Items) 
 
     End //ends the program
+
+Types of astronauts are: biologist, meteorologist, geodesist // биолог, метеоролог, геодезист
 ****

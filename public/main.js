@@ -3,6 +3,8 @@ const button = document.querySelector('input[type="button"]');
 const outputBox = document.getElementById('output');
 
 const audio = document.getElementById('music');
+audio.muted = true;
+setTimeout(() => audio.play(), 5000);
 
 let astronauts = new Module.AstronautRepository();
 
