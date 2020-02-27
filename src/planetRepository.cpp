@@ -1,6 +1,8 @@
 #include "planetRepository.hpp"
+#ifdef __EMSCRIPTEN__
 #include <emscripten/bind.h>
 using namespace emscripten;
+#endif
 std::vector<Planet> &PlanetRepository::getModels() {
     return this->planets;
 }
@@ -16,9 +18,10 @@ bool PlanetRepository::remove(const Planet &planet) {
 }
 
 PlanetRepository::~PlanetRepository() = default;
-
+#ifdef __EMSCRIPTEN__
 EMSCRIPTEN_BINDINGS(planet_repo_class){
     class_<PlanetRepository>("PlanetRepository")
             .constructor<>()
             ;
 }
+#endif

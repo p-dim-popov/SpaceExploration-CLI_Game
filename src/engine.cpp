@@ -1,6 +1,8 @@
 #include "engine.hpp"
+#ifdef __EMSCRIPTEN__
 #include <emscripten/bind.h>
 using namespace emscripten;
+#endif
 Engine::Engine(std::istream &in, std::ostream &out, IRepository<Astronaut> &astronauts, IRepository<Planet> &planets,
                IMission &mission) {
     this->in = &in;
@@ -56,7 +58,7 @@ void Engine::run() {
             {
                 *this->out << c.report();
             }
-            else continue;
+            else *this->out << "Грешна команда";
         }
         catch (std::exception& e)
         {

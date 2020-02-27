@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../include/JSTestEngine.hpp
-iEngine.hpp
-../include/iEngine.hpp
-iostream
--
-istream
--
-ostream
--
-fstream
--
-controller.hpp
-../include/controller.hpp
-
 ../include/astronaut.hpp
 stdexcept
 -
@@ -158,18 +144,10 @@ planet.hpp
 algorithm
 -
 
-/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/JSTestEngine.cpp
-JSTestEngine.hpp
-/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/JSTestEngine.hpp
-emscripten/bind.h
--
-
-/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/main.cpp
-JSTestEngine.hpp
-/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/JSTestEngine.hpp
+/home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/engine.cpp
 engine.hpp
 /home/pjs/CLionProjects/SpaceExploration-CLI_Game/src/engine.hpp
-iostream
+emscripten/bind.h
 -
 
 /home/pjs/emsdk/upstream/emscripten/system/include/emscripten/bind.h

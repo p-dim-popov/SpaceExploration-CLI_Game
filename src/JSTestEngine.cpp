@@ -1,6 +1,8 @@
 #include "JSTestEngine.hpp"
+#ifdef __EMSCRIPTEN__
 #include <emscripten/bind.h>
 using namespace emscripten;
+#endif
 JSTestEngine::JSTestEngine(AstronautRepository &astronauts, PlanetRepository &planets, Mission &mission) {
     this->astronauts = &astronauts;
     this->planets = &planets;
@@ -51,11 +53,11 @@ std::string JSTestEngine::action(const std::string &input) {
             return c->report();
         } else return "Грешна команда";
     }
-    catch (std::exception &e) {
+    catch (const std::exception &e) {
         return e.what();
     }
 }
-
+#ifdef __EMSCRIPTEN__
 JSTestEngine::~JSTestEngine() = default;
 
 EMSCRIPTEN_BINDINGS(js_test_engine_class){
@@ -64,3 +66,4 @@ EMSCRIPTEN_BINDINGS(js_test_engine_class){
             .function("action", &JSTestEngine::action)
             ;
 }
+#endif

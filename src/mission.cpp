@@ -1,8 +1,8 @@
 #include "mission.hpp"
-#include<emscripten/bind.h>
-
+#ifdef __EMSCRIPTEN__
+#include <emscripten/bind.h>
 using namespace emscripten;
-
+#endif
 void Mission::explore(Planet &planet, std::vector<Astronaut *> &astronauts, bool killAll) {
     for(auto &astronaut: astronauts)
     {
@@ -28,7 +28,7 @@ void Mission::explore(Planet &planet, std::vector<Astronaut *> &astronauts, bool
         }
     }
 }
-
+#ifdef __EMSCRIPTEN__
 Mission::~Mission() = default;
 
 EMSCRIPTEN_BINDINGS(mission_class){
@@ -36,3 +36,4 @@ EMSCRIPTEN_BINDINGS(mission_class){
             .constructor<>()
             ;
 }
+#endif

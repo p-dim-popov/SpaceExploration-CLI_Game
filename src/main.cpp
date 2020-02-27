@@ -15,14 +15,6 @@ int main() {
     Mission mission;
     Engine eng(cin, cout, astronauts, planets, mission);
     eng.run();
-//    JSTestEngine eng(astronauts, planets, mission);
-//    while (true){
-//        string input;
-//        getline(cin, input);
-//        string output = eng.action(input);
-//        if (output == "Край" || output == "End") break;
-//        cout << output;
-//    }
 #endif
     return 0;
 }

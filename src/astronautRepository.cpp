@@ -1,6 +1,8 @@
 #include "astronautRepository.hpp"
+#ifdef __EMSCRIPTEN__
 #include <emscripten/bind.h>
 using namespace emscripten;
+#endif
 std::vector<Astronaut> &AstronautRepository::getModels() {
     return this->astronauts;
 }
@@ -16,9 +18,10 @@ bool AstronautRepository::remove(const Astronaut &a) {
 }
 
 AstronautRepository::~AstronautRepository() = default;
-
+#ifdef __EMSCRIPTEN__
 EMSCRIPTEN_BINDINGS(astronaut_repo_class){
     class_<AstronautRepository>("AstronautRepository")
             .constructor<>()
             ;
 }
+#endif
