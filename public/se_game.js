@@ -31620,7 +31620,7 @@ function isDataURI(filename) {
 
 
 
-var wasmBinaryFile = 'a.wasm';
+var wasmBinaryFile = 'se_game.wasm';
 if (!isDataURI(wasmBinaryFile)) {
   wasmBinaryFile = locateFile(wasmBinaryFile);
 }
